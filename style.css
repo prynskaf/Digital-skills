@@ -1,0 +1,49 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    height: 100%;
+    padding-bottom: 5px;
+    margin-bottom:3px
+}
+
+header > img {
+    width: 20%;
+}
+
+header > .navbar {
+    list-style-type: none;
+}
+
+header > .navbar > li{
+    display: inline;
+    font-size: 16pt;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkgrey;
+}
+
+.content{
+    display:flex;
+}
+
+.content > article{
+    width: 23%;
+    margin:5px;
+}
+
+.content > article > img{
+    width: 100%;
+}
+
+footer{
+    background-color: brown;
+    padding: 5px;
+    text-align: center;
+    color:white;
+}
